@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  /* font-family: "Varela Round", "Quicksand", sans-serif; */
+  font-family: "Dancing Script", cursive;
+  background: url(./roseday.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.postcard {
+  width: 800px;
+  height: 550px;
+  /* background: rgba(255, 255, 255, 0.101); */
+  background: #f594b862;
+  margin: 0 auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  -ms-transform: rotate(2.5deg);
+  /* IE 9 */
+  -webkit-transform: rotate(2.5deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(2.5deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+
+/*animation*/
+.postcard:hover,
+.postcard:active,
+.postcard:focus {
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+.push {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+p span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #800020;
+  font-family: "Dancing Script", cursive;
+
+}
+
+p {
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: 540;
+}
